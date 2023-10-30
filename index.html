@@ -4,8 +4,340 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>You tube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sidebar.css">
 </head>
 <body>
+    <header class="header">
+        <div class="left-section">
+            <img src="img/icons/hamburger-menu.svg" alt="hamburger-icon" class="hamburger-menu">
+            <img src="img/icons/youtube-logo.svg" alt="youtube-logo" class="youtube-logo">
+        </div>
+        <div class="middle-section">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-btn">
+                <img src="img/icons/search.svg" alt="search-icon" class="search-icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-btn">
+                <img src="img/icons/voice-search-icon.svg" alt="voice-search-icon" class="voice-search-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img src="img/icons/upload.svg" alt="upload-icon" class="upload-icon">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-container">
+                <img src="img/icons/youtube-apps.svg" alt="youtube-apps" class="youtube-app-icon">
+                <div class="tooltip">You tube apps</div>
+            </div>
+            <div class="notification-container">
+                <img src="img/icons/notifications.svg" alt="notification-icon" class="notification-icon">
+                <div class="tooltip">Notifications</div>
+                <div class="notification-count">9+</div>
+            </div>
+            <img src="img/channels/my-channel.jpeg" alt="mychannel" class="current-user">
+        </div>
+      
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+          <img src="img/icons/home.svg">
+          <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="img/icons/explore.svg">
+          <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="img/icons/subscriptions.svg">
+          <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="img/icons/library.svg">
+          <div>Library</div>
+        </div>
+      </nav>
+   
+    <div class="video-card">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-1.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channel-1.jpeg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-status">3.4M views &#183 6 months ago</p>
+                </div>
+            </div>   
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-2.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channel-2.jpeg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    <p class="video-author">Markiplier</p>
+                    <p class="video-status">19M views &#183 4 years ago</p>
+                </div>
+            </div>   
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-3.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    20.00
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channel-3.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Anything You Can Fit In The Circle I'll Pay For</p>
+                    <p class="video-author">MrBeast</p>
+                    <p class="video-status">26M views &#183 3 years ago</p>
+                </div>
+            </div>   
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-4.webp" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    4:52
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-4.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">What would happen if you didn't drink water?-Mia Nacmauli</p>
+                    <p class="video-author">TED-Edr</p>
+                    <p class="video-status">20M views &#183 7 years ago</p>
+                </div>
+            </div>   
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-5.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    53:32
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channel-5.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Our Planet | Frozen Worlds | FULL EPISODE | Netflix</p>
+                    <p class="video-author">Netflix</p>
+                    <p class="video-status">31M views &#183 3 years ago</p>
+                </div>
+            </div>   
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-6.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    29.37
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channel-6.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How to put an HTML website online (on the internet)</p>
+                    <p class="video-author">SuperSimpleDev</p>
+                    <p class="video-status">950K views &#183 1 years ago</p>
+                </div>
+            </div>      
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-7.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-7.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">I Paid a Taxi $10,000 to See How Far it Takes Me!</p>
+                    <p class="video-author">Yes Theory</p>
+                    <p class="video-status">5.4M views &#183 3 months ago</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-8.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                   2:44
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-8.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Ek Villain: Galliyan Video Song | Ankit Tiwari | Sidharth Malhotra | Shraddha Kapoor</p>
+                    <p class="video-author">T-Series</p>
+                    <p class="video-status">29M views &#183 9 years ago</p>
+                </div>
+            </div>  
+        </div>  
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-9.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    7:13
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-9.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Inside the Taliban's war on drugs - BBC News</p>
+                    <p class="video-author">BBC News</p>
+                    <p class="video-status">1.9M views &#183 4 months ago</p>
+                </div>
+            </div>  
+        </div>   
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-10.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    1:30:04
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-10.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Tibetan Flute Healing Stops Overthinking, Eliminates Stress, Anxiety and Calms the Mind</p>
+                    <p class="video-author">Soothing Meditation</p>
+                    <p class="video-status">420K views &#183 3 weeks ago</p>
+                </div>
+            </div>  
+        </div>   
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-11.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    15:50
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-11.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">England victorious in bronze final | Argentina v England | Rugby World Cup 2023 Extended Highlights</p>
+                    <p class="video-author">Rugby World Cup</p>
+                    <p class="video-status">6.29K views &#183 4 hours ago</p>
+                </div>
+            </div>  
+        </div>  
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-12.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    20:54
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-7.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">I Spent a Day with Giants (World's Strongest Men)</p>
+                    <p class="video-author">Yes Theory</p>
+                    <p class="video-status">8.6M views &#183 1 years ago</p>
+                </div>
+            </div>  
+        </div>  
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-13.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    24:42
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-7.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">TLiving 100 Hours with a Kung-Fu Master (Shi Heng Yi)</p>
+                    <p class="video-author">Yes Theory</p>
+                    <p class="video-status">1.1M views &#183 4 months ago</p>
+                </div>
+            </div>  
+        </div>  
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-14.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    5:06
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channels-8.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Full Video: Guzarish | Ghajini | Aamir Khan, Asin | A.R. Rahman | Javed Ali, Sonu Nigam</p>
+                    <p class="video-author">T-Series</p>
+                    <p class="video-status">76M views &#183 12 years ago</p>
+                </div>
+            </div>  
+        </div> 
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="img/thumbnails/thumbnail-15.jpg" alt="thumbnail-1" class="thumbnail">
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img src="img/channels/channel-12.jpg" alt="channel-pic" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Deploy your website for free with Cloudflare Pages and GitHub!</p>
+                    <p class="video-author">Coder Coder</p>
+                    <p class="video-status">122K views &#183 2 years ago</p>
+                </div>
+            </div>  
+        </div>           
+    </div>
     
 </body>
 </html>
