@@ -32,7 +32,7 @@
    
     
 }
-
+/*-Media Queries*/
 @media all and (max-width:798px) {
     .sidebar {
         display: none;
